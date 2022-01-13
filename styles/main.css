@@ -13,8 +13,18 @@ body {
     font-family: 'Fira Sans', sans-serif;
     color: rgb(75, 74, 74);
     margin: 6px;
-    background-color: rgb(182, 182, 182, 0.4);
+    background: linear-gradient(90deg, #cccbc8, #5c5e5e);
+    padding: 20px;
+}
 
+header h1 {
+    color:white;
+    text-shadow: 2px 2px 2px #5c5e5e;
+
+}
+
+th {
+    font-size: larger;
 }
 
 hr {
@@ -24,6 +34,10 @@ hr {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
+
+footer {
+    border: 2px solid rgb(75, 74, 74);
+}
 /* Class selectors */
 
 .button {
@@ -32,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 4px 8px;
     color: white;
     border-radius: 6px;
+    /* time for hover effect */
     transition-duration: 0.4s;
 }
 
@@ -52,14 +67,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .start {
-    /* Viewport High */
-    height: 100vh;
-    background: linear-gradient(90deg, #cccbc8, #5c5e5e);
+    /* Viewport Height */
+
 }
 
-.profilePic {
-    display: grid;
+
+.tool {
+    display:flex;
     justify-content: center;
     align-items: center;
-
+    
 }

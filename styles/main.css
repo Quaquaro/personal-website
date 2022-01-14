@@ -199,15 +199,15 @@ header {
 .row {
     display:flex;
     justify-content: flex-start;
-    background-color: rgb(65, 225, 150);
     flex-wrap: wrap;
     padding-left: 5px;
+    background-color: whitesmoke;
 
 }
 
 .space {
     padding: 5px;
-    background-color: royalblue;
+    
 }
 
 /* footer */
@@ -224,10 +224,16 @@ footer {
 }
 
 aside {
-    border: 2px solid #3c3c3c; 
+    background-color:#3c3c3c; 
     border-radius: 8px;
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin-top: 15px;
+    padding: 10px 0 10px 10px;
+
+}
+
+aside  li {
+    color:whitesmoke;
 }
 
 

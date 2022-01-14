@@ -130,6 +130,9 @@ header {
     text-shadow: 2px 2px 2px #5c5e5e;
 }
 
+.head-container:hover {
+    width: 20%;
+}
 .head-container {
     margin: 200px 10px 10px 10px;
     display:flex;
@@ -191,23 +194,49 @@ header {
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin:0 15px 15px 15px;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction:column;
+    padding: 10px 0 0 10px;
+    color:whitesmoke; 
     
 }
 
-.row {
-    display:flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding-left: 5px;
+summary{
+    padding: .25rem 1rem;
     background-color: whitesmoke;
+    color:#3c3c3c;
+    border-radius: 3px;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    list-style: none;
 
 }
 
-.space {
-    padding: 5px;
-    
+summary::before {
+    padding-right: .25rem;
+    content: '+ '
+}
+
+details[open] summary::before{
+    padding-right: .25rem;
+    content: '- ';
+}
+
+details[open] summary {
+    border-radius: 3px 3px 0 0;
+}
+
+.education {
+    border: 2px solid #3c3c3c; 
+    border-radius: 8px;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin:0 15px 15px 15px;
+    display: flex;
+    align-items: start;
+    flex-direction:column;
+    padding: 10px 0 0 10px;
+    color:whitesmoke; 
+
 }
 
 /* footer */

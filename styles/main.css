@@ -156,11 +156,23 @@ header {
     background-color: #3c3c3c;
 }
 
+.cite {     
+    
+    border: 2px solid #3c3c3c; 
+    border-radius: 8px;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:whitesmoke;
+    padding: 10px ;
+    
+
+}
+
 .techstack {
     border: 2px solid #3c3c3c; 
     border-radius: 8px;
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin: 15px;
+    padding-left:10px;
 }
 
 .follow {
@@ -178,16 +190,18 @@ header {
     border-radius: 8px;
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin:0 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
     
 }
-
-
 
 .row {
     display:flex;
     justify-content: flex-start;
     background-color: rgb(65, 225, 150);
     flex-wrap: wrap;
+    padding-left: 5px;
 
 }
 
@@ -218,14 +232,5 @@ aside {
 
 
 
-/* helper */
 
-.cite {     
-    
-    border: 2px solid #3c3c3c; 
-    border-radius: 8px;
-    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color:whitesmoke;
-    padding: 10px ;
 
-}

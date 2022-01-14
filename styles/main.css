@@ -13,15 +13,10 @@ body {
     font-family: 'Fira Sans', sans-serif;
     color: rgb(75, 74, 74);
     margin: 6px;
-    background: linear-gradient(90deg, #cccbc8, #5c5e5e);
+    background: linear-gradient(90deg, #5c5e5e,#fffefb);
     padding: 20px;
 }
 
-header h1 {
-    color:white;
-    text-shadow: 2px 2px 2px #5c5e5e;
-
-}
 
 th {
     font-size: larger;
@@ -32,7 +27,9 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2;
+    line-height: 1.2;    
+    color:white;
+    text-shadow: 2px 2px 2px #5c5e5e;
 }
 
 footer {
@@ -68,7 +65,6 @@ footer {
 
 .start {
     /* Viewport Height */
-
 }
 
 
@@ -77,4 +73,9 @@ footer {
     justify-content: center;
     align-items: center;
     
+}
+
+.profilePic {
+    border-radius: 20px;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

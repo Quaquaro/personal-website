@@ -77,6 +77,7 @@ header {
 
 .logo {
     padding: 20px 0 10px 20px;
+
 }
 
 /* Nav-bar */
@@ -85,7 +86,6 @@ header {
 
     display: flex;
     justify-content: start;
-    
 }
 
 

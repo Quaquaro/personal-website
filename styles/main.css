@@ -1,5 +1,6 @@
 /* Import font fira sans */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 /* Universal selector */
 * {
     box-sizing: border-box;
@@ -21,41 +22,15 @@ body {
 }
 
 
-
-th {
-    font-size: larger;
-}
-
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;    
     color:white;
     text-shadow: 2px 2px 2px #5c5e5e;
 }
 
-/* Class selectors */
-
-
-.topArrow {
-    text-decoration: none;
-}
-
-.undottedList {
-    /* none list symbols */
-    list-style :none;
-}
-
-.start {
-    /* Viewport Height */
-}
-
-
-.tool {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
+a img:hover {
+    opacity: 0.5;
+} 
 
 /* Header */
 
@@ -64,8 +39,17 @@ header {
     background-repeat: no-repeat;
 	background-size: cover;
     height: 100vh;
+    width:auto;
     border-radius: 8px;
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 300%;
 }
 
 .logo {
@@ -81,7 +65,6 @@ header {
     justify-content: start;
 }
 
-
 .nav-button {
     text-decoration: none;
     color: white;
@@ -95,7 +78,6 @@ header {
     color:rgb(0, 0, 0);
     font-size: larger;
     text-shadow: none;
-    margin-bottom: 400px;
    
 }
 
@@ -130,11 +112,9 @@ header {
     text-shadow: 2px 2px 2px #5c5e5e;
 }
 
-.head-container:hover {
-    width: 20%;
-}
+
 .head-container {
-    margin: 200px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
     display:flex;
     justify-content: start;
     flex-flow: column wrap;
@@ -145,18 +125,19 @@ header {
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.outer-container {
+.test {
     display:flex;
-    align-items:end;
+    justify-content: start;
+
+
 }
 /* main */
 
-.content-container {
-    border: 2px solid #3c3c3c; 
+.content-container { 
     border-radius: 8px;
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin-top: 15px;
-    background-color: #3c3c3c;
+    padding-bottom: 10px;
 }
 
 .cite {     
@@ -166,9 +147,11 @@ header {
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color:whitesmoke;
     padding: 10px ;
-    
-
 }
+.citmg{
+    padding-top: 10px;
+}
+
 
 .techstack {
     border: 2px solid #3c3c3c; 
@@ -176,6 +159,7 @@ header {
     box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin: 15px;
     padding-left:10px;
+    background-color: #3c3c3c;
 }
 
 .follow {
@@ -185,7 +169,8 @@ header {
     margin:0 15px 15px 15px;
     display: flex;
     align-items: center;
-    flex-direction:column
+    flex-direction:column;
+    background-color: #3c3c3c;
 }
 
 #biography {
@@ -196,9 +181,14 @@ header {
     display: flex;
     align-items: start;
     flex-direction:column;
-    padding: 10px 0 0 10px;
-    color:whitesmoke; 
+    padding: 10px;
+    color:whitesmoke;
+    background-color: #3c3c3c; 
     
+}
+
+details {
+    width: 100%;
 }
 
 summary{
@@ -235,21 +225,9 @@ details[open] summary {
     align-items: start;
     flex-direction:column;
     padding: 10px 0 0 10px;
-    color:whitesmoke; 
+    color:whitesmoke;
+    background-color: #3c3c3c; 
 
-}
-
-/* footer */
-
-footer {
-    border: 2px solid #3c3c3c; 
-    border-radius: 8px;
-    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    margin-top: 15px;
-}
-
-.contact-lnk {
-    text-decoration-style: none;
 }
 
 aside {
@@ -261,11 +239,51 @@ aside {
 
 }
 
-aside  li {
+aside  {
     color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    border: 2px solid #3c3c3c; 
+    border-radius: 8px;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-top: 15px;
+    color:whitesmoke;
+    background-color: #3c3c3c;
+    
+
+
+}
+a[href^="mailto:"] {
+    color: whitesmoke;
+    text-decoration: none;
+}
+a[href^="tel:"] {
+    color:whitesmoke;
+    text-decoration: none;
 }
 
 
+address {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tool {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.topArrow {
+    text-decoration: none;
+}
 
-
+.undottedList {
+    /* none list symbols */
+    list-style :none;
+}

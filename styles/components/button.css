@@ -1,0 +1,16 @@
+.button {
+  text-decoration: none;
+  background-color: var(--color-kupfer);
+  padding: 4px 8px;
+  color: var(--color-light-grey);
+  border-radius: 8px;
+  /* time for hover effect */
+  transition-duration: 0.6s;
+}
+
+.button:hover {
+  background-color: var(--color-light-grey);
+  color: var(--color-kupfer);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

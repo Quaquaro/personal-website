@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-dark-blue);
+}
+
+body {
+  font-size: 112.5%;
+  line-height: 1.5;
+  font-family: "Fira Sans", sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+h2,
+h1 {
+  line-height: 1.2;
+}
+
+h1,
+h3,
+h4 {
+  line-height: 1.2;
+  color: var(--color-light-grey);
+  text-shadow: 2px 2px 2px var(--color-grey);
+}
+
+a img:hover {
+  opacity: 0.5;
+}
+
+a[href^="mailto:"] {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+  transition-duration: 0.4s;
+}
+
+a[href^="mailto:"]:hover {
+  font-size: larger;
+}
+
+a[href^="tel:"] {
+  color: var(--color-dark-blue);
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+a[href^="tel:"]:hover {
+  font-size: larger;
+}
+
+details {
+  width: 100%;
+}
+
+summary {
+  padding: 0.25rem 1rem;
+  background-color: var(--color-light-grey);
+  color: var(--color-dark-blue);
+  border-radius: 3px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  list-style: none;
+}
+
+summary::before {
+  padding-right: 0.25rem;
+  content: "+ ";
+}
+
+details[open] summary::before {
+  padding-right: 0.25rem;
+  content: "- ";
+}
+
+details[open] summary {
+  border-radius: 3px 3px 0 0;
+}
+
+.p--small-shadow {
+  color: var(--color-light-grey);
+  text-shadow: 2px 2px 2px var(--color-grey);
+  font-size: smaller;
+}

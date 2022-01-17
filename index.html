@@ -27,9 +27,9 @@
     <title>Christoph Timm</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="nav-bar" id="nav-bar">
-        <a class="nav-button" href="#contact"
+        <a class="nav-bar__button ml-15" href="#contact"
           >KONTAKT
           <img
             src="./images/mail.svg"
@@ -48,6 +48,7 @@
       </h1>
       <figure>
         <img
+          class="header__image"
           src="images/profile_pic_rgb_square.png"
           alt="That's picture of me"
           width="100"
@@ -55,19 +56,19 @@
         />
       </figure>
     </header>
-    <div class="head-container">
-      <h2 class="hello">Guten Tag,</h2>
-      <p class="description">
+    <div class="header__container">
+      <h2 class="header__heading">Guten Tag,</h2>
+      <p class="header__paragraph">
         mein Name ist Christoph Timm. Ich bin Apotheker, Projektmanager und
         befinde mich in der Ausbildung zum Junior Webdeveloper.
       </p>
-      <span class="btn-head"
+      <span class="header__button"
         ><a class="button" href="#biography">JETZT MEHR ERFAHREN</a></span
       >
     </div>
-    <main class="content-container">
-      <div class="citema">
-        <figure class="cite">
+    <main class="main br-8 mt-15">
+      <div class="main__container">
+        <figure class="main main__cite br-8">
           <figcaption><cite>Lao-Tse:</cite></figcaption>
           <blockquote>
             "Wer andere besiegt ist stark. Wer sich selbst besiegt, hat Macht."
@@ -75,7 +76,7 @@
         </figure>
       </div>
 
-      <section class="techstack">
+      <section class="section br-8">
         <h3>&#128736; Tech Stack</h3>
         <p>
           <img
@@ -97,7 +98,7 @@
         </p>
       </section>
 
-      <section class="follow">
+      <section class="br-8 section section--align-center">
         <h3>Follow me around the web:</h3>
         <a
           href="https://www.linkedin.com/in/christoph-timm-052bb81b5/"
@@ -125,10 +126,13 @@
         /></a>
       </section>
 
-      <section id="biography">
+      <section
+        id="biography"
+        class="br-8 section section--flex-direction-column"
+      >
         <h3>Erfahrungen</h3>
 
-        <p class="space">10/2021 - 12/2021</p>
+        <p>10/2021 - 12/2021</p>
         <details open>
           <summary>
             <b>Apotheker in der Produktentwicklung CANTEK GmbH, Hamburg</b>
@@ -140,7 +144,7 @@
           </p>
         </details>
 
-        <p class="space">12/2019 - 09/2021</p>
+        <p>12/2019 - 09/2021</p>
         <details>
           <summary>
             <b
@@ -155,7 +159,7 @@
           </p>
         </details>
 
-        <p class="space">05/2018 - 11/2019</p>
+        <p>05/2018 - 11/2019</p>
         <details>
           <summary>
             <b
@@ -170,7 +174,7 @@
           </p>
         </details>
 
-        <p class="space">07/2017 - 04/2018</p>
+        <p>07/2017 - 04/2018</p>
         <details>
           <summary>
             <b
@@ -184,13 +188,13 @@
           </p>
         </details>
       </section>
-      <section class="education">
+      <section class="section section--flex-direction-column br-8">
         <h3>Ausbildung</h3>
 
-        <p class="space">01/2022 - Jetzt</p>
+        <p>01/2022 - Jetzt</p>
         <p><b> neue fische GmbH Hamburg</b><br />Student Webdevelopment</p>
 
-        <p class="space">04/2012 - 06/2017</p>
+        <p>04/2012 - 06/2017</p>
         <p>
           <b>Christian-Albrechts-Universität Kiel</b><br />Studium der Pharmazie
           Abschluss: Approbation als Apotheker
@@ -198,36 +202,35 @@
       </section>
     </main>
 
-    <aside>
-      <h4>Interessen</h4>
-      <div class="bracket">
-        <ul class="undottedList">
+    <aside class="aside br-8 mt-15">
+      <h4 class="aside__heading">Interessen</h4>
+      <div class="aside--bracket">
+        <ul class="aside__ul">
           <li>🏌 Golf</li>
           <li>&#128421; Coding</li>
           <li>&#128214; Reading</li>
         </ul>
       </div>
     </aside>
-    <footer>
-      <address id="contact">
-        <ul class="undottedList">
+    <footer class="footer mt-15 br-8">
+      <address id="contact" class="footer__address">
+        <ul class="aside__ul">
           <p>Contact me</p>
           <li>
-            <a class="contact-lnk" href="mailto:c.timm@posteo.de"
-              >📧 c.timm@posteo.de</a
-            >
+            <a href="mailto:c.timm@posteo.de">📧 c.timm@posteo.de</a>
           </li>
           &nbsp;
           <li>
-            <a class="contact-lnk" href="tel:+4912345635">📞 +49 135 813 58</a>
+            <a href="tel:+4912345635">📞 +49 135 813 58</a>
           </li>
         </ul>
       </address>
-      <p class="tool">
-        Go to the top <a class="topArrow" href="#nav-bar">&nbsp;&#128316;</a>
+      <p class="footer__tool">
+        Go to the top
+        <a class="footer__top-arrow" href="#nav-bar">&nbsp;&#128316;</a>
       </p>
     </footer>
-    <p class="stand">
+    <p class="p--small-shadow">
       Stand: <time datetime="2022-01-17 12:35">Januar 22</time>
     </p>
   </body>

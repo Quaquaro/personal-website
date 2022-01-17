@@ -1,0 +1,23 @@
+.aside {
+  color: var(--color-dark-blue);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 0 10px 10px;
+  color: var(--color-light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside__heading {
+  padding-right: 20px;
+}
+.aside--bracket {
+  border-left: var(--color-light-grey) solid 1px;
+  border-radius: 12px;
+}
+
+.aside__ul {
+  list-style: none;
+  padding-left: 10px;
+}

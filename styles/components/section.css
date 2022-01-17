@@ -1,0 +1,23 @@
+.section {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+  padding: 5px 10px;
+  color: var(--color-light-grey);
+  background-color: var(--color-dark-blue);
+}
+
+.section--align-center {
+  margin: 0 15px 15px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section--flex-direction-column {
+  margin: 0 15px 15px 15px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 10px;
+}

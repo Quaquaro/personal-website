@@ -16,19 +16,12 @@
       sizes="16x16"
       href="./images/favicon-16x16.png"
     />
-    <link rel="manifest" href="./images/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="./images/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Christoph Timm</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav-bar" id="nav-bar">
+    <header class="header flex flex-col justify-center items-center">
+      <nav class="nav-bar flex justify-end" id="nav-bar">
         <a class="nav-bar__button ml-15" href="#contact"
           >KONTAKT
           <img
@@ -56,19 +49,19 @@
         />
       </figure>
     </header>
-    <div class="header__container">
+    <div class="header__container flex justify-start flex-wrap flex-col">
       <h2 class="header__heading">Guten Tag,</h2>
       <p class="header__paragraph">
         mein Name ist Christoph Timm. Ich bin Apotheker, Projektmanager und
         befinde mich in der Ausbildung zum Junior Webdeveloper.
       </p>
       <span class="header__button"
-        ><a class="button" href="#biography">JETZT MEHR ERFAHREN</a></span
+        ><a class="button br-8" href="#biography">JETZT MEHR ERFAHREN</a></span
       >
     </div>
     <main class="main br-8 mt-15">
       <div class="main__container">
-        <figure class="main main__cite br-8">
+        <figure class="main main__cite br-8 p-3 m-0">
           <figcaption><cite>Lao-Tse:</cite></figcaption>
           <blockquote>
             "Wer andere besiegt ist stark. Wer sich selbst besiegt, hat Macht."
@@ -76,7 +69,7 @@
         </figure>
       </div>
 
-      <section class="section br-8">
+      <section class="section br-8 m-4">
         <h3>&#128736; Tech Stack</h3>
         <p>
           <img
@@ -98,7 +91,7 @@
         </p>
       </section>
 
-      <section class="br-8 section section--align-center">
+      <section class="br-8 section section--margin flex items-center flex-col">
         <h3>Follow me around the web:</h3>
         <a
           href="https://www.linkedin.com/in/christoph-timm-052bb81b5/"
@@ -128,7 +121,7 @@
 
       <section
         id="biography"
-        class="br-8 section section--flex-direction-column"
+        class="br-8 section p-3 section--margin flex items-start flex-col"
       >
         <h3>Erfahrungen</h3>
 
@@ -202,7 +195,7 @@
       </section>
     </main>
 
-    <aside class="aside br-8 mt-15">
+    <aside class="aside br-8 mt-15 flex justify-center items-center">
       <h4 class="aside__heading">Interessen</h4>
       <div class="aside--bracket">
         <ul class="aside__ul">
@@ -213,7 +206,7 @@
       </div>
     </aside>
     <footer class="footer mt-15 br-8">
-      <address id="contact" class="footer__address">
+      <address id="contact" class="flex justify-evenly items-center">
         <ul class="aside__ul">
           <p>Contact me</p>
           <li>
@@ -225,7 +218,7 @@
           </li>
         </ul>
       </address>
-      <p class="footer__tool">
+      <p class="footer__tool flex justify-center items-center">
         Go to the top
         <a class="footer__top-arrow" href="#nav-bar">&nbsp;&#128316;</a>
       </p>

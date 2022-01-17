@@ -3,8 +3,6 @@
   background-color: var(--color-kupfer);
   padding: 4px 8px;
   color: var(--color-light-grey);
-  border-radius: 8px;
-  /* time for hover effect */
   transition-duration: 0.6s;
 }
 

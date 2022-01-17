@@ -1,3 +1,11 @@
+.m-0 {
+  margin: 0;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
 .mt-15 {
   margin-top: 15px;
 }
@@ -12,6 +20,10 @@
 
 .ml-15 {
   margin-left: 15px;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .br-8 {

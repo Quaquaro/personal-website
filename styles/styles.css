@@ -1,0 +1,17 @@
+/* Import font fira sans */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&display=swap");
+@import "./colors.css";
+@import "./base.css";
+@import "./utilities/spacing.css";
+@import "./utilities/flexbox.css";
+@import "./utilities/box-aligment.css";
+@import "./utilities/spacing.css";
+
+
+@import "./components/aside.css";
+@import "./components/button.css";
+@import "./components/footer.css";
+@import "./components/header.css";
+@import "./components/nav-bar.css";
+@import "./components/section.css";
+@import "./components/main.css";

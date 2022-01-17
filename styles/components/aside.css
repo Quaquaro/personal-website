@@ -4,9 +4,6 @@
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   padding: 10px 0 10px 10px;
   color: var(--color-light-grey);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .aside__heading {

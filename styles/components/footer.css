@@ -1,12 +1,6 @@
 .footer {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
   color: var(--color-light-grey);
-  background: linear-gradient(
-    0deg,
-    var(--color-light-grey),
-    var(--color-dark-blue)
-  );
+  background: linear-gradient(0deg, var(--color-light-grey), var(--color-dark-blue));
 }
 
 .footer__tool {
@@ -15,8 +9,4 @@
 
 .footer__tool:hover {
   opacity: 0.5;
-}
-
-.footer__top-arrow {
-  text-decoration: none;
 }

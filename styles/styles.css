@@ -6,7 +6,11 @@
 @import "./utilities/flexbox.css";
 @import "./utilities/box-aligment.css";
 @import "./utilities/spacing.css";
-
+@import "./utilities/borders.css";
+@import "./utilities/effects.css";
+@import "./utilities/transition-animation.css";
+@import "./utilities/typography.css";
+@import "./utilities/grid.css";
 
 @import "./components/aside.css";
 @import "./components/button.css";
